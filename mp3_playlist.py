@@ -53,12 +53,12 @@ class playlist:
     def get_playlist_length(self):
         return len(self.songs)
     
-if __name__ == "__main__":
-    my_playlist = playlist()
-    my_playlist.load_songs('songs.txt')
-    print(my_playlist.display_all_playlist())
-    print(my_playlist.play_next_song())
-    print(my_playlist.get_playlist_length())
-    my_playlist.shuffle_playlist()
-    print(my_playlist.display_all_playlist())
-    my_playlist.save_playlist('new_songs.txt')
+# if __name__ == "__main__":
+#     my_playlist = playlist()
+#     my_playlist.load_songs('songs.txt')
+#     print(my_playlist.display_all_playlist())
+#     print(my_playlist.play_next_song())
+#     print(my_playlist.get_playlist_length())
+#     my_playlist.shuffle_playlist()
+#     print(my_playlist.display_all_playlist())
+#     my_playlist.save_playlist('new_songs.txt')
